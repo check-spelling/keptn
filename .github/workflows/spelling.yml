@@ -15,7 +15,7 @@ on:
 jobs:
   build:
     name: Spell checking
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
     - name: checkout-merge
       if: "contains(github.event_name, 'pull_request')"
