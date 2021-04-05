@@ -8,7 +8,6 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/keptn/keptn)](https://goreportcard.com/report/github.com/keptn/keptn)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/3588/badge)](https://bestpractices.coreinfrastructure.org/projects/3588)
 
-ttypox
 typoos
 
 Keptn is an event-based control plane for continuous delivery and automated operations for cloud-native applications. 
