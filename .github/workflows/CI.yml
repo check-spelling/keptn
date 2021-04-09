@@ -31,6 +31,7 @@ jobs:
           concurrent_skipping: 'never'
           skip_after_successful_duplicate: 'true'
           paths_ignore: '[".github/workflows/c*", ".github/workflows/d*", ".github/workflows/i*", ".github/workflows/r*", ".github/workflows/s*"]'
+
   prepare_ci_run:
     needs: pre_job
     if: ${{ needs.pre_job.outputs.should_skip != 'true' }}
