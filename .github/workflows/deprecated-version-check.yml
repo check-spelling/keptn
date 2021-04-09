@@ -1,5 +1,13 @@
 name: Check deprecated K8s versions
-on: [pull_request]
+on:
+  pull_request:
+    paths-ignore:
+      - ".github/workflows/CI*"
+      - ".github/workflows/c*"
+      - ".github/workflows/det*"
+      - ".github/workflows/i*"
+      - ".github/workflows/r*"
+      - ".github/workflows/s*"
 jobs:
   deprecated-version-check:
     name: deprecated version check

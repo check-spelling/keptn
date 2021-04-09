@@ -5,11 +5,23 @@ on:
     branches:
       - 'master'
       - 'release-*'
+    paths-ignore:
+      - ".github/workflows/c*"
+      - ".github/workflows/d*"
+      - ".github/workflows/i*"
+      - ".github/workflows/r*"
+      - ".github/workflows/s*"
   # in addition, execute for pull requests to those branches
   pull_request:
     branches:
       - 'master'
       - 'release-*'
+    paths-ignore:
+      - ".github/workflows/c*"
+      - ".github/workflows/d*"
+      - ".github/workflows/i*"
+      - ".github/workflows/r*"
+      - ".github/workflows/s*"
     types: [labeled]
   workflow_dispatch: # run CI when triggered manually
 

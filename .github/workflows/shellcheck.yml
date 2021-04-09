@@ -1,6 +1,22 @@
 name: shellcheck
 
-on: [push, pull_request]
+on:
+  push:
+    paths-ignore:
+      - ".github/workflows/C*"
+      - ".github/workflows/c*"
+      - ".github/workflows/d*"
+      - ".github/workflows/i*"
+      - ".github/workflows/r*"
+      - ".github/workflows/sp*"
+  pull_request:
+    paths-ignore:
+      - ".github/workflows/C*"
+      - ".github/workflows/c*"
+      - ".github/workflows/d*"
+      - ".github/workflows/i*"
+      - ".github/workflows/r*"
+      - ".github/workflows/sp*"
 
 jobs:
   lint_shellscripts:

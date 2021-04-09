@@ -1,5 +1,12 @@
 name: reviewdog
-on: [pull_request]
+on:
+  pull_request:
+    paths-ignore:
+      - ".github/workflows/C*"
+      - ".github/workflows/c*"
+      - ".github/workflows/d*"
+      - ".github/workflows/i*"
+      - ".github/workflows/s*"
 jobs:
   reviewdog:
     name: reviewdog
