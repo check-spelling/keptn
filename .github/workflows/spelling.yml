@@ -29,3 +29,5 @@ jobs:
       with:
         fetch-depth: 5
     - uses: check-spelling/check-spelling@v0.0.18
+      with:
+        debug: 1
