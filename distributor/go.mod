@@ -11,6 +11,6 @@ require (
 	github.com/keptn/go-utils v0.8.3
 	github.com/nats-io/nats-server/v2 v2.2.2
 	github.com/nats-io/nats.go v1.10.1-0.20210419223411-20527524c393
-	github.com/sirupsen/logrus v1.4.2
+	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.7.0
 )
